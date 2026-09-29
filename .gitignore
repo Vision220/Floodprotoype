@@ -1,0 +1,39 @@
+# Node / Vite / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.cache/
+*.local
+
+# Python / Backend
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.sqlite3
+
+# Databases & Runtime Data
+*.db
+floodhadr.db
+backend/floodhadr.db
+uploads/
+backend/uploads/
+data/cache/
+
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.rar
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+.env.*
